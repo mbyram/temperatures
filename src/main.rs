@@ -16,7 +16,7 @@ fn main() {
 
     while unit.trim() != "F".trim() || unit.trim() != "f".trim() || unit.trim() != "C".trim() || unit.trim() != "c".trim(){
 
-        println!("Is this Fahernheit or Celesius? Type F or C");
+        println!("Is this Fahernheit or Celesius? Type F or C. Pick one");
         
         unit = String::new();
         io::stdin().read_line(&mut unit).expect("Failed to take in value");       
