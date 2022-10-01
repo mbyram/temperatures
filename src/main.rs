@@ -30,7 +30,6 @@ fn main() {
             println!("F to C: {}", result);
             break;
         }else if unit.trim() == "C".trim() || unit.trim() == "c".trim() {
-            println!("Did I get here 2");
             let temp:f32 = temperature.trim().parse().expect("Not a valid number");
             let result:f32 = ((9.0/5.0) *temp) + 32.0;
             println!("F to C: {}", result);
